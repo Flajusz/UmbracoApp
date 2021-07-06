@@ -1,0 +1,44 @@
+.catButton
+{
+    margin-right: 5px;
+    width: 104px;
+    height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border-width: 0;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.catButtonClicked
+{
+    margin-right: 5px;
+    width: 104px;
+    height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: blue;
+    border-width: 0;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.catsPlace
+{
+    width: 88%;
+    padding-bottom: 20px;
+    padding-top: 10px; 
+    float:right;
+    height: auto;     
+}
+
+@media only screen and (max-width: 750px) 
+{
+    .catsPlace
+    {
+        height: auto;
+        margin-left: 5%;
+        width: 95%;
+    }
+}
